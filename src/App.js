@@ -1,8 +1,12 @@
-import React from 'react';
-import {GetStarted} from './pages';
+import React from "react";
+import { GetStarted } from "./pages";
+import { NavigationContainer } from "@react-navigation/native";
 
 const App = () => {
-  return <GetStarted />;
+  return;
+  <NavigationContainer>
+    <GetStarted />
+  </NavigationContainer>;
 };
 
 export default App;
